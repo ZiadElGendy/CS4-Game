@@ -1,0 +1,70 @@
+		 	//Image boximage = new Image(getClass().getResourceAsStream("grey.png"));
+		 	
+		 	
+	        /*for (int row = 0; row < 2; row++) {
+	            for (int col = 0; col < 4; col++) {
+	            	//ImageView image = new ImageView(new Image(getClass().getResourceAsStream("buttonTemp.png")));
+	               //root2.getChildren().addAll(new Rectangle(64, 48, Color.CORNFLOWERBLUE), image);
+	                Rectangle cell = new Rectangle(CELL_SIZE, CELL_SIZE);
+	                // Load the image
+	                //Image image = new Image(getClass().getResourceAsStream("buttonTemp.png"));
+
+	                // Set the image as the fill for the cell
+	                cell.setFill(new ImagePattern(boximage));
+	                cell.setStroke(BORDER_COLOR);
+	                cell.setStrokeWidth(1);
+
+	                // Add any necessary event handlers or customization to the cell
+
+	                GridPane.setRowIndex(cell, row);
+	                GridPane.setColumnIndex(cell, col);
+	                root2.getChildren().addAll(cell);
+	            }
+	        }*/
+
+
+	/*for(int col=0; col<5; col++){
+	for(int row=0; row<5;row++){
+		Image charactersquare = new Image(getClass().getResourceAsStream("buttonTemp.png"));
+		ImageView map = new ImageView(charactersquare);
+		root2.add(map,col,row);
+	}
+	
+}*/
+//3-playing scene
+  //a) create a map using gridpane
+	/*GridPane gridpane3= new GridPane();
+	Image mapsquare = new Image(getClass().getResourceAsStream("buttonTemp.png"));
+	ImageView map = new ImageView(mapsquare);
+	gridpane3.add(map,0,0);
+	
+	
+	
+
+    //map.setLayoutX(820);
+    //map.setLayoutY(300);
+   // map.setFitHeight(300);d
+    //map.setFitWidth(300);
+    
+  //b) add gridpane to the pane  
+	Pane root3 = new Pane(gridpane3);
+	Scene scene3 = new Scene(root3,1000,600);
+  //c) create a compass base and add it to root
+    Image compasscircle = new Image(getClass().getResourceAsStream("compassTemp.png"));
+	ImageView  compass= new ImageView(compasscircle);
+    compass.setLayoutX(50);
+    compass.setLayoutY(50);
+    compass.setFitHeight(300);
+    compass.setFitWidth(300);
+    root3.getChildren().add(compass);
+    */
+  //d)add a background
+   /* Image image = new Image(getClass().getResourceAsStream("openingBackground.png"));
+    BackgroundSize backgroundSize = new BackgroundSize(100, 100, true, true, true, false);
+    BackgroundImage backgroundimage = new BackgroundImage(image, 
+                                         BackgroundRepeat.NO_REPEAT, 
+                                         BackgroundRepeat.NO_REPEAT, 
+                                         BackgroundPosition.CENTER, 
+                                         backgroundSize);
+    Background background = new Background(backgroundimage);
+    root1.setBackground(background);*/
